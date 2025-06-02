@@ -55,6 +55,7 @@ img{
 	max-width: 100%;
 	height: auto;
 	vertical-align: middle;
+    
 	
 }
 
@@ -63,7 +64,7 @@ img{
 	
     margin: 0 auto;
 	font-family: 'Noto Sans Tc';
-	border:1px solid #6C757D;
+	
 }
 
 /*表頭*/
@@ -72,6 +73,7 @@ img{
 	width: 100%;
     background:#fbfbfb;		
 	padding:24px 80px;	
+    border-top:1px solid #6C757D;
 	}	
 	
 .Navbarmenu{
@@ -80,8 +82,7 @@ img{
 	height:100%;
 	align-items: center;	
 	font-size: 28px;
-	line-height: 150%;	
-	
+	line-height: 150%;		
 	gap:40px;
 	}
 .Navbarmenu a{
@@ -95,6 +96,7 @@ text-decoration:none;
 	height: 640px;
 	border:1px solid #6c757d;	
 	padding-bottom: 56px;
+    
 }
 
 .bannerL{
@@ -104,6 +106,7 @@ text-decoration:none;
 	background-position: center;
 	background-size:cover ;
 	background-repeat: no-repeat;
+    
 	
 }
 
@@ -251,6 +254,7 @@ padding: 12px 0;
 /*表尾*/
 .footer{
 	width: 100%;
+    border-top:1px solid #6C757D;
 		
 }
 
