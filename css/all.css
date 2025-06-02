@@ -73,7 +73,7 @@ img{
 	width: 100%;
     background:#fbfbfb;		
 	padding:24px 80px;	
-    border-top:1px solid #6C757D;
+    border-bottom:1px solid #6C757D;
 	}	
 	
 .Navbarmenu{
@@ -95,6 +95,7 @@ text-decoration:none;
 	display:flex;
 	height: 640px;		
 	padding-bottom: 56px;
+    border-bottom:1px solid #6C757D;
     
 }
 
@@ -231,7 +232,7 @@ padding: 12px 0;
 	height: 40px;
 	width: 108px;	
 	justify-content: center;
-	border: 1px solid #4b4b4b;	
+		
 	border-radius: 40px;
 	text-decoration: none;
 	
@@ -243,7 +244,7 @@ padding: 12px 0;
 	height: 40px;
 	width: 108px;	
 	justify-content: center;
-	border: 1px solid #4b4b4b;	
+	
 	border-radius: 40px;
 	text-decoration: none;
 	
