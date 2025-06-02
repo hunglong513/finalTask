@@ -1,0 +1,362 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 以上是CSS Reset  */
+
+*{box-sizing: border-box;}
+
+img{
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	
+}
+
+.wrap{
+    max-width:100%;
+	
+    margin: 0 auto;
+	font-family: 'Noto Sans Tc';
+	border:1px solid #6C757D;
+}
+
+/*表頭*/
+.Navbar{
+    height: 90px;
+	width: 100%;
+    background:#fbfbfb;		
+	padding:24px 80px;	
+	}	
+	
+.Navbarmenu{
+	display:flex;
+	justify-content: center;
+	height:100%;
+	align-items: center;	
+	font-size: 28px;
+	line-height: 150%;	
+	
+	gap:40px;
+	}
+.Navbarmenu a{
+text-decoration:none;
+}
+
+/*banner*/
+
+.banner{
+	display:flex;
+	height: 640px;
+	border:1px solid #6c757d;	
+	padding-bottom: 56px;
+}
+
+.bannerL{
+	width: 636px;
+	height: 100px;
+	background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/content1.png?raw=true');
+	background-position: center;
+	background-size:cover ;
+	background-repeat: no-repeat;
+	
+}
+
+.bannerR{
+	width: 636px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;	
+}
+
+
+
+
+.bannerR .time{
+	color:#000000;
+	line-height: 150%;
+	padding: 4px;
+}
+
+.bannermenu{
+display: flex;
+justify-content: start;
+padding:4px;
+}
+
+.bannermenu .paper
+{
+
+height: 36px;
+font-size:24px;
+line-height: 150%;
+color:#0027D5;
+padding-right: 8px;
+
+}
+
+.bannermenu .news
+{
+	
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	height: 36px;
+	width: 88px;	
+    line-height: 150%;
+	color:#FFFFFF;
+    background:#0027D5;    
+    border-radius: 40px;
+    
+
+}
+
+.banner .titles{
+	font-size: 28px;
+	line-height: 150%;;
+	color:#000000;
+	padding:4px;
+}
+
+
+.content{
+
+width: 636px;
+margin: 0 auto;
+font-weight: bold;
+}
+
+.contentpaper li{
+padding: 24px;
+}
+
+.contentpaper h2{
+font-size: 28px;
+line-height: 150%;
+color:#0027D5;
+padding: 12px 0;
+}
+
+.contentpaper h3{
+font-size: 20px;
+line-height: 150%;
+color:#000000;
+padding-top: 12px;
+padding-bottom: 0;
+}
+
+.contentpaper p{
+padding: 12px 0;
+	line-height: 150%;
+	color:#000000;	
+}
+
+.contentpaper .pTip{
+	display: flex;
+	height: 96px;
+	background:#EDEDED;
+	border-radius: 24px;
+	font-weight: bold;
+	padding: 12px 0;
+	line-height: 150%;
+	color:#000000;	
+	align-items: center;
+	justify-content: center;
+}
+
+.updownmu{
+	
+	width: 636px;
+	height: 40px;
+	display:flex;
+	justify-content:space-between;	
+	margin: 0 auto;
+	padding-top: 24px;
+	padding-bottom: 80px;
+	
+	
+	
+}
+
+.updownmu .up {
+	display:flex;
+	align-items: center;
+	height: 40px;
+	width: 108px;	
+	justify-content: center;
+	border: 1px solid #4b4b4b;	
+	border-radius: 40px;
+	text-decoration: none;
+	
+}
+
+.updownmu .dw{
+	display:flex;
+	align-items: center;
+	height: 40px;
+	width: 108px;	
+	justify-content: center;
+	border: 1px solid #4b4b4b;	
+	border-radius: 40px;
+	text-decoration: none;
+	
+}
+
+
+/*表尾*/
+.footer{
+	width: 100%;
+		
+}
+
+.footerUp{
+	display:flex;
+	justify-content: space-around;
+	background:#fbfbfb;	
+	height: 208px;
+	gap:24px
+}
+
+.footerUpL{
+
+font-size:32px;
+line-height: 150%;	
+color:#000000;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+
+.fp{
+	text-align: left;
+}
+
+.footerUpR{
+	display: flex;
+	
+	align-items: center;
+
+}
+
+.footerUpRm{
+display:flex;
+justify-content: start;
+
+
+}
+
+.footerBt{
+	background:#ffffff;	
+	height: 72px;	
+	text-align: center;
+	padding:24px 0;
+}
+
+
+@media (max-width: 576px) {
+  .banner {
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 32px;
+  }
+
+  .bannerL, .bannerR {
+    width: 100%;
+  }
+
+  .bannermenu .paper, .bannermenu .news {
+    font-size: 16px;
+  }
+
+  .banner .titles {
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .bannerL, .bannerR {
+    flex: 100%;
+  }
+
+  .banner .titles {
+    font-size: 24px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .banner {
+    padding-bottom: 48px;
+  }
+
+  .bannerL, .bannerR {
+    width: 100%;
+  }
+
+  .banner .titles {
+    font-size: 26px;
+  }
+}
+
+
+@media (max-width: 1280px) {
+  .Navbar {
+    padding: 24px 40px;
+  }
+
+  .Navbarmenu {
+    font-size: 24px;
+    gap: 20px;
+  }
+}
+
