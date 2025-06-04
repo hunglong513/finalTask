@@ -322,7 +322,8 @@ content h3{
   }
 
   .bannerL, .bannerR {
-    width: 100%;
+    max-width: 100%;
+	height: calc(100% - 90px - 252px);
   }
 
   .bannermenu .paper, .bannermenu .news {
